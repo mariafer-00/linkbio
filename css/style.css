@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ancizar-serif-<uniquifier;
 }
 
 body {
@@ -10,15 +13,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../assets/bg-flores.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 main {
     width: 300px;
     min-height: 300px;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid floralwhite;
     padding: 76px 16px 16px 16px;
     border-radius: 16px;
+    background-color: #921b1b80;
+    backdrop-filter: blur(4px);
 }
 
 .perfil {
@@ -30,7 +38,8 @@ main {
     translate: -50% -50%;
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid floralwhite;
+
 }
 
 .perfil .foto,
@@ -85,15 +94,28 @@ a {
     align-items: center;
     width: 100%;
     height: 32px;
-    border: 1px solid red;
+    border: 1px solid floralwhite;
     border-radius: 8px;
-    background-color: blue;
+    background-color: rgb(153, 110, 94);
     transition: .5s;
-    color: aliceblue;
+    color: rgb(235, 228, 223);
     text-decoration: none;
+    font-family: "Playwrite HU", cursive;
 }
+
+
 
 a:hover {
     background-color: #fff;
     color: #1a5afc;
+}
+
+h1 {
+    font-family: ancizar-serif- uniquifier;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 16px 0;
 }
